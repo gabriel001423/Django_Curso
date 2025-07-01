@@ -1,0 +1,34 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+   
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: rgb(75, 126, 128) !important;
+    border-bottom: 1px solid aliceblue !important;
+}
+
+.navbar-nav {
+    margin: auto !important;
+}
+
+.navbar-brand {
+    font-weight: bold !important;
+    font-size: 2em !important;
+}
+
+.nav-link {
+    color: aliceblue !important;
+    font-size: 2em !important;
+    letter-spacing: 2px !important;
+}
+
+footer {
+    text-align: center !important;
+    background-color: rgb(75, 126, 128) !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 0.8em !important;
+
+}
