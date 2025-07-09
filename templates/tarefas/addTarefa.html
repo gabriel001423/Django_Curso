@@ -8,13 +8,13 @@
 
 <div class="list-div">
     <h2>adicione sua nova tarefa: </h2>
-    <forms method="POST">
+    <form method="POST">
         {% csrf_token %}
-        {{ form| crispy }}
+        {{ form|crispy }}
 
 
-    <input type="submit" class="btn btn-sucess" value="Criar Tarefa">
-    </forms>
+    <input type="submit" class="btn btn-success" value="Criar Tarefa">
+    </form>
 
 </div>
 
