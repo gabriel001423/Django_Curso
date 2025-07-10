@@ -31,11 +31,12 @@
     {% for tarefa in tarefas %}
     <div class="row item">
         <div class="col-sm-10">
-            <span><a class="link" href="">{{tarefa.titulo}}</a></span>
+            <span><a class="link" href="/tarefas/{{tarefa.id}}">{{tarefa.titulo}}</a></span>
         </div>
         <div class="col-sm-2 icones">
-            <span><i class="fa fa-edit"></i></span>
-            <span><i class="fa fa-trash"></i></span>
+            <a href="edit/{{tarefa.id}}"><span><i class="fa fa-edit"></i></span></a>
+            <a href="delete/{{tarefa.id}}"><span><i class="fa fa-trash"></i></span></a>
+            
         </div>
     </div>
     {% endfor %}
