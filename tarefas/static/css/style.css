@@ -86,3 +86,13 @@ footer {
   color: rgb(255, 255, 255) !important;
   padding: 0.8em !important;
 }
+/* login */
+.auth-card {
+  margin-bottom: 2em !important;
+  margin-top: 2em !important;
+}
+
+.change-form-p {
+  margin-top: 2em !important;
+  text-align: center !important;
+}
