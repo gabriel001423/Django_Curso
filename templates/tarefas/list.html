@@ -17,7 +17,7 @@
         <div class="col-sm-10">
             <form method="get" id="search-form">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Pesquisar" name="search" value="">
+                    <input type="text" class="form-control" placeholder="Pesquisar" name="search" value="{{request.GET.search}}">
                     <div class="input-group-btn">
                         <button class="btn btn-default" id="search-btn" type="submit">
                             <i class="fa fa-search"></i>
@@ -35,7 +35,7 @@
         </div>
         <div class="col-sm-2 icones">
             <a href="edit/{{tarefa.id}}"><span><i class="fa fa-edit"></i></span></a>
-            <a href="delete/{{tarefa.id}}"><span><i class="fa fa-trash"></i></span></a>
+            <a href="delete/{{tarefa.id}}" class="delete-btn"><span><i class="fa fa-trash"></i></span></a>
             
         </div>
     </div>
